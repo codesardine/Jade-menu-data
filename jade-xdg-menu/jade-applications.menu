@@ -3,22 +3,14 @@
 <Menu>
 
   <Name>Applications</Name>
-  <Directory>Arch-Applications.directory</Directory>
+  <Directory>Jade-Applications.directory</Directory>
   <DefaultAppDirs/>
   <DefaultDirectoryDirs/>
   <DefaultMergeDirs/>
 
   <Menu>
-    <Name>Archlinux</Name>
-    <Directory>Archlinux.directory</Directory>
-    <Include>
-      <Category>Archlinux</Category>
-    </Include>
-  </Menu>
-
-  <Menu>
     <Name>Accessories</Name>
-    <Directory>Arch-Accessories.directory</Directory>
+    <Directory>Jade-Accessories.directory</Directory>
     <Include>
       <And>
         <Category>Utility</Category>
@@ -27,11 +19,14 @@
         </Not>
       </And>
     </Include>
+    <Exclude>
+      <Filename>xfce4-about.desktop</Filename>
+    </Exclude>
   </Menu>
 
   <Menu>
     <Name>Accessibility</Name>
-    <Directory>Arch-Accessibility.directory</Directory>
+    <Directory>Jade-Accessibility.directory</Directory>
     <Include>
       <And>
         <Category>Accessibility</Category>
@@ -44,7 +39,7 @@
 
   <Menu>
     <Name>Development</Name>
-    <Directory>Arch-Development.directory</Directory>
+    <Directory>Jade-Development.directory</Directory>
     <Include>
       <And>
         <Category>Development</Category>
@@ -55,7 +50,7 @@
 
   <Menu>
     <Name>Education</Name>
-    <Directory>Arch-Education.directory</Directory>
+    <Directory>Jade-Education.directory</Directory>
     <Include>
       <And>
         <Category>Education</Category>
@@ -65,7 +60,7 @@
 
   <Menu>
     <Name>Games</Name>
-    <Directory>Arch-Games.directory</Directory>
+    <Directory>Jade-Games.directory</Directory>
     <Include>
       <And>
         <Category>Game</Category>
@@ -75,7 +70,7 @@
 
   <Menu>
     <Name>Graphics</Name>
-    <Directory>Arch-Graphics.directory</Directory>
+    <Directory>Jade-Graphics.directory</Directory>
     <Include>
       <And>
         <Category>Graphics</Category>
@@ -85,7 +80,7 @@
 
   <Menu>
     <Name>Internet</Name>
-    <Directory>Arch-Internet.directory</Directory>
+    <Directory>Jade-Internet.directory</Directory>
     <Include>
       <And>
         <Category>Network</Category>
@@ -95,17 +90,20 @@
 
   <Menu>
     <Name>Multimedia</Name>
-    <Directory>Arch-Multimedia.directory</Directory>
+    <Directory>Jade-Multimedia.directory</Directory>
     <Include>
       <And>
         <Category>AudioVideo</Category>
       </And>
     </Include>
+    <Exclude>
+    <Filename>xfburn.desktop</Filename>
+    </Exclude>
   </Menu>
 
   <Menu>
     <Name>Office</Name>
-    <Directory>Arch-Office.directory</Directory>
+    <Directory>Jade-Office.directory</Directory>
     <Include>
       <And>
         <Category>Office</Category>
@@ -115,7 +113,7 @@
 
     <Menu>
 	<Name>Science</Name>
-	<Directory>Arch-Science.directory</Directory>
+	<Directory>Jade-Science.directory</Directory>
 	<Include>
 		<And>
 			<Or>
@@ -135,26 +133,42 @@
 
   <Menu>
     <Name>System</Name>
-    <Directory>Arch-System-Tools.directory</Directory>
+    <Directory>Jade-System-Tools.directory</Directory>
     <Include>
       <And>
         <Category>System</Category>
         <Not><Category>Settings</Category></Not>
       </And>
     </Include>
+    <Exclude>
+      <Filename>manjaro-welcome.desktop</Filename>
+    </Exclude>
   </Menu>
 
   <Menu>
     <Name>Other</Name>
-    <Directory>Arch-Other.directory</Directory>
+    <Directory>Jade-Other.directory</Directory>
     <OnlyUnallocated/>
     <Include>
       <And>
         <Category>Application</Category>
         <Not><Category>Core</Category></Not>
         <Not><Category>Settings</Category></Not>
+        <Not><Category>Screensaver</Category></Not>
+        <Not><Category>DesktopSettings</Category></Not>
       </And>
     </Include>
-  </Menu>
+    </Menu>
+
+  <Menu>
+		<Name>Settings</Name>
+		<Directory>Jade-Settings.directory</Directory>
+		<OnlyUnallocated/>
+		<Include>
+      <And>
+        <Category>Settings</Category>
+			</And>
+		</Include>
+	</Menu> 
 
 </Menu>
