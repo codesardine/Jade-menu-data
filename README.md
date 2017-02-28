@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## Jade menus.
 
 Application menu definition files for [JADE](https://github.com/codesardine/Jadesktop)
