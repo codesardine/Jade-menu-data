@@ -9,6 +9,17 @@
   <DefaultMergeDirs/>
 
   <Menu>
+		<Name>Help</Name>
+		<Directory>Jade-Help.directory</Directory>
+		<Include>
+      <And>
+        <Category>Documentation</Category>
+			</And>
+      <Filename>org.gnome.Devhelp.desktop</Filename>
+		</Include>
+	</Menu> 
+
+  <Menu>
     <Name>Accessories</Name>
     <Directory>Jade-Accessories.directory</Directory>
     <Include>
@@ -16,6 +27,7 @@
         <Category>Utility</Category>
         <Not>
           <Category>System</Category>
+          <Category>Documentation</Category>
         </Not>
       </And>
     </Include>
@@ -43,9 +55,15 @@
     <Include>
       <And>
         <Category>Development</Category>
+        <Not>
+          <Category>Documentation</Category>
+        </Not>
       </And>
       <Filename>emacs.desktop</Filename>
     </Include>
+    <Exclude>
+      <Filename>org.gnome.Devhelp.desktop</Filename>
+    </Exclude>
   </Menu>
 
   <Menu>
@@ -163,7 +181,6 @@
   <Menu>
 		<Name>Settings</Name>
 		<Directory>Jade-Settings.directory</Directory>
-		<OnlyUnallocated/>
 		<Include>
       <And>
         <Category>Settings</Category>

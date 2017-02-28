@@ -1,5 +1,9 @@
 [Desktop Entry]
 Name=Education
+Comment=Knowledge is power, educate yourself!
+Icon=accessories-dictionary
+Type=Directory
+Encoding=UTF-8
 Name[ar]=تعليميّة
 Name[be]=Адукацыя
 Name[be@latin]=Adukacyja
@@ -70,6 +74,3 @@ Name[vi]=Giáo dục
 Name[zh_CN]=教育
 Name[zh_HK]=教育
 Name[zh_TW]=教育
-Icon=package_edutainment
-Type=Directory
-Encoding=UTF-8
