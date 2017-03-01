@@ -1,4 +1,4 @@
-# Maintainer: Vitor Lopes <vmnlop@gmail.com>
+# Author: Vitor Lopes <vmnlop@gmail.com>
 
 _pkgname=jade-menu-data
 pkgname="$_pkgname-git"
