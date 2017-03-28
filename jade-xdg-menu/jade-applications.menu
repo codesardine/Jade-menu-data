@@ -159,7 +159,7 @@
       </And>
     </Include>
     <Exclude>
-      <Filename>manjaro-welcome.desktop</Filename>
+      <Filename>manjaro-hello.desktop</Filename>
     </Exclude>
   </Menu>
 
