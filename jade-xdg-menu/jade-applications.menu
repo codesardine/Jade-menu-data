@@ -9,15 +9,15 @@
   <DefaultMergeDirs/>
 
   <Menu>
-		<Name>Help</Name>
-		<Directory>Jade-Help.directory</Directory>
-		<Include>
-      <And>
-        <Category>Documentation</Category>
-			</And>
-      <Filename>org.gnome.Devhelp.desktop</Filename>
-		</Include>
-	</Menu> 
+    <Name>Help</Name>
+       <Directory>Jade-Help.directory</Directory>
+	  <Include>
+             <And>
+                <Category>Documentation</Category>
+	           </And>
+                      <Filename>org.gnome.Devhelp.desktop</Filename>
+	  </Include>
+  </Menu> 
 
   <Menu>
     <Name>Accessories</Name>
@@ -33,6 +33,7 @@
     </Include>
     <Exclude>
       <Filename>xfce4-about.desktop</Filename>
+      <Filename>atom.desktop</Filename>
     </Exclude>
   </Menu>
 
