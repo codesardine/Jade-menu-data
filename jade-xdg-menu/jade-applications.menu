@@ -105,6 +105,9 @@
         <Category>Network</Category>
       </And>
     </Include>
+    <Exclude>
+      <Filename>steam.desktop</Filename>
+    </Exclude>
   </Menu>
 
   <Menu>
@@ -116,7 +119,7 @@
       </And>
     </Include>
     <Exclude>
-    <Filename>xfburn.desktop</Filename>
+      <Filename>xfburn.desktop</Filename>
     </Exclude>
   </Menu>
 
