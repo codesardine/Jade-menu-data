@@ -14,8 +14,8 @@
 	  <Include>
              <And>
                 <Category>Documentation</Category>
-	           </And>
-                      <Filename>org.gnome.Devhelp.desktop</Filename>
+	     </And>
+                <Filename>org.gnome.Devhelp.desktop</Filename>
 	  </Include>
   </Menu> 
 
@@ -34,6 +34,8 @@
     <Exclude>
       <Filename>xfce4-about.desktop</Filename>
       <Filename>atom.desktop</Filename>
+      <Filename>jade-dashboard.desktop</Filename>
+      <Filename>plank.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -185,11 +187,11 @@
   <Menu>
 		<Name>Settings</Name>
 		<Directory>Jade-Settings.directory</Directory>
-		<Include>
+    <Include>
       <And>
         <Category>Settings</Category>
-			</And>
-		</Include>
-	</Menu> 
-
+      </And>
+    </Include>
+  </Menu>
+ 
 </Menu>
