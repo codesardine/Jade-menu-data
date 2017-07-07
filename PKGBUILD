@@ -3,7 +3,7 @@
 _pkgname=jade-menu-data
 pkgname="$_pkgname-git"
 <<<<<<< HEAD
-pkgver=0.3
+pkgver=0.4
 =======
 pkgver=3
 >>>>>>> 7cbecdf0718923e1b1a33b5845ff1b41e8ef563d
