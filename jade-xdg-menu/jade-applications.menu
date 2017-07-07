@@ -133,6 +133,9 @@
         <Category>Office</Category>
       </And>
     </Include>
+    <Exclude>
+      <Filename>libreoffice-draw.desktop</Filename>
+    </Exclude>
   </Menu>
 
     <Menu>
