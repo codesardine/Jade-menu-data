@@ -36,6 +36,10 @@
       <Filename>atom.desktop</Filename>
       <Filename>jade-dashboard.desktop</Filename>
       <Filename>plank.desktop</Filename>
+      <Filename>hplip.desktop</Filename>
+      <Filename>seahorse.desktop</Filename>
+      <Filename>kvantummanager.desktop</Filename>
+      <Filename>lighttable.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -66,6 +70,7 @@
     </Include>
     <Exclude>
       <Filename>org.gnome.Devhelp.desktop</Filename>
+      <Filename>hyper.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -106,6 +111,7 @@
       <And>
         <Category>Network</Category>
       </And>
+    <Filename>avahi-discover.desktop</Filename>
     </Include>
     <Exclude>
       <Filename>steam.desktop</Filename>
@@ -122,6 +128,7 @@
     </Include>
     <Exclude>
       <Filename>xfburn.desktop</Filename>
+      <Filename>pavucontrol.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -135,6 +142,11 @@
     </Include>
     <Exclude>
       <Filename>libreoffice-draw.desktop</Filename>
+      <Filename>Word.desktop</Filename>
+      <Filename>Excel.desktop</Filename>
+      <Filename>OneNote.desktop</Filename>
+      <Filename>PowerPoint.desktop</Filename>
+      <Filename>Outlook.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -166,9 +178,15 @@
         <Category>System</Category>
         <Not><Category>Settings</Category></Not>
       </And>
+    <Filename>hyper.desktop</Filename>
     </Include>
     <Exclude>
       <Filename>manjaro-hello.desktop</Filename>
+      <Filename>cairo-dock.desktop</Filename>
+      <Filename>cairo-dock-cairo.desktop</Filename>
+      <Filename>org.gnome.Software.desktop</Filename>
+      <Filename>timeshift-gtk.desktop</Filename>
+      <Filename>avahi-discover.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -194,6 +212,10 @@
       <And>
         <Category>Settings</Category>
       </And>
+    <Filename>hplip.desktop</Filename>
+    <Filename>org.gnome.Software.desktop</Filename>
+    <Filename>timeshift-gtk.desktop</Filename>
+    <Filename>pavucontrol.desktop</Filename>
     </Include>
   </Menu>
  
