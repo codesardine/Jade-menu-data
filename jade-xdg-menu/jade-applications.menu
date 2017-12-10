@@ -70,7 +70,7 @@
     </Include>
     <Exclude>
       <Filename>org.gnome.Devhelp.desktop</Filename>
-      <Filename>hyper.desktop</Filename>
+      <Filename>Hyper.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -178,7 +178,7 @@
         <Category>System</Category>
         <Not><Category>Settings</Category></Not>
       </And>
-    <Filename>hyper.desktop</Filename>
+    <Filename>Hyper.desktop</Filename>
     </Include>
     <Exclude>
       <Filename>manjaro-hello.desktop</Filename>
