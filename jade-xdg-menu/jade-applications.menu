@@ -185,8 +185,8 @@
       <Filename>cairo-dock.desktop</Filename>
       <Filename>cairo-dock-cairo.desktop</Filename>
       <Filename>org.gnome.Software.desktop</Filename>
-      <Filename>timeshift-gtk.desktop</Filename>
       <Filename>avahi-discover.desktop</Filename>
+      <Filename>cups.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -214,7 +214,6 @@
       </And>
     <Filename>hplip.desktop</Filename>
     <Filename>org.gnome.Software.desktop</Filename>
-    <Filename>timeshift-gtk.desktop</Filename>
     <Filename>pavucontrol.desktop</Filename>
     </Include>
   </Menu>
