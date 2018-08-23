@@ -1,7 +1,6 @@
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN" "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
 
 <Menu>
-
   <Name>Applications</Name>
   <Directory>Jade-Applications.directory</Directory>
   <DefaultAppDirs/>
@@ -40,6 +39,7 @@
       <Filename>seahorse.desktop</Filename>
       <Filename>kvantummanager.desktop</Filename>
       <Filename>lighttable.desktop</Filename>
+      <Filename>klipper.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -102,6 +102,9 @@
         <Category>Graphics</Category>
       </And>
     </Include>
+<Exclude>
+      <Filename>deepin-screenshot.desktop</Filename>
+    </Exclude>
   </Menu>
 
   <Menu>
@@ -178,7 +181,6 @@
         <Category>System</Category>
         <Not><Category>Settings</Category></Not>
       </And>
-    <Filename>Hyper.desktop</Filename>
     </Include>
     <Exclude>
       <Filename>manjaro-hello.desktop</Filename>
@@ -187,6 +189,7 @@
       <Filename>org.gnome.Software.desktop</Filename>
       <Filename>avahi-discover.desktop</Filename>
       <Filename>cups.desktop</Filename>
+      <Filename>Hyper.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -216,6 +219,14 @@
     <Filename>org.gnome.Software.desktop</Filename>
     <Filename>pavucontrol.desktop</Filename>
     </Include>
+    <Exclude>
+      <Filename>kdesystemsettings.desktop</Filename>
+      <Filename>manjaro-settings-manager.desktop</Filename>
+      <Filename>blueman-adapters.desktop</Filename>
+      <Filename>systemsettings.desktop</Filename>
+      <Filename>blueman-manager.desktop</Filename>
+      <Filename>org.kde.kdeconnect.kcm.desktop</Filename>
+    </Exclude>
   </Menu>
  
 </Menu>
