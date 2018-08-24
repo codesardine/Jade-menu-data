@@ -119,6 +119,7 @@
     </Include>
     <Exclude>
       <Filename>steam.desktop</Filename>
+      <Filename>org.kde.kdeconnect.nonplasma.desktop</Filename>
     </Exclude>
   </Menu>
 
