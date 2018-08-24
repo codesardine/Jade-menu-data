@@ -14,6 +14,7 @@
              <And>
                 <Category>Documentation</Category>
 	     </And>
+                <Filename>manjaro-hello.desktop</Filename>
                 <Filename>org.gnome.Devhelp.desktop</Filename>
 	  </Include>
   </Menu> 
@@ -102,7 +103,7 @@
         <Category>Graphics</Category>
       </And>
     </Include>
-<Exclude>
+   <Exclude>
       <Filename>deepin-screenshot.desktop</Filename>
     </Exclude>
   </Menu>
@@ -145,31 +146,26 @@
     </Include>
     <Exclude>
       <Filename>libreoffice-draw.desktop</Filename>
-      <Filename>Word.desktop</Filename>
-      <Filename>Excel.desktop</Filename>
-      <Filename>OneNote.desktop</Filename>
-      <Filename>PowerPoint.desktop</Filename>
-      <Filename>Outlook.desktop</Filename>
     </Exclude>
   </Menu>
 
-    <Menu>
-	<Name>Science</Name>
-	<Directory>Jade-Science.directory</Directory>
-	<Include>
-		<And>
-			<Or>
-				<Category>Astronomy</Category>
-				<Category>Biology</Category>
-				<Category>Chemistry</Category>
-				<Category>Geology</Category>
-				<Category>MedicalSoftware</Category>
-				<Category>Physics</Category>
-				<Category>Math</Category>
-				<Category>Science</Category>
-			</Or>
-			<Not><Category>Education</Category></Not>
-		</And>
+  <Menu>
+    <Name>Science</Name>
+      <Directory>Jade-Science.directory</Directory>
+      <Include>
+        <And>
+          <Or>
+	    <Category>Astronomy</Category>
+	    <Category>Biology</Category>
+	    <Category>Chemistry</Category>
+	    <Category>Geology</Category>
+	    <Category>MedicalSoftware</Category>
+	    <Category>Physics</Category>
+	    <Category>Math</Category>
+	    <Category>Science</Category>
+	  </Or>
+	    <Not><Category>Education</Category></Not>
+	 </And>
 	</Include>
     </Menu>
 
@@ -209,8 +205,8 @@
     </Menu>
 
   <Menu>
-		<Name>Settings</Name>
-		<Directory>Jade-Settings.directory</Directory>
+    <Name>Settings</Name>
+    <Directory>Jade-Settings.directory</Directory>
     <Include>
       <And>
         <Category>Settings</Category>
@@ -220,8 +216,6 @@
     <Filename>pavucontrol.desktop</Filename>
     </Include>
     <Exclude>
-      <Filename>kdesystemsettings.desktop</Filename>
-      <Filename>manjaro-settings-manager.desktop</Filename>
       <Filename>blueman-adapters.desktop</Filename>
       <Filename>systemsettings.desktop</Filename>
       <Filename>blueman-manager.desktop</Filename>
