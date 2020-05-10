@@ -132,6 +132,7 @@
       </And>
     </Include>
     <Exclude>
+      <Filename>pavucontrol-qt.desktop</Filename>
       <Filename>xfburn.desktop</Filename>
       <Filename>pavucontrol.desktop</Filename>
     </Exclude>
@@ -215,8 +216,10 @@
     <Filename>hplip.desktop</Filename>
     <Filename>org.gnome.Software.desktop</Filename>
     <Filename>pavucontrol.desktop</Filename>
+    <Filename>pavucontrol-qt.desktop</Filename>
     </Include>
     <Exclude>
+      <Filename>manjaro-settings-manager.desktop</Filename>
       <Filename>blueman-adapters.desktop</Filename>
       <Filename>systemsettings.desktop</Filename>
       <Filename>blueman-manager.desktop</Filename>
