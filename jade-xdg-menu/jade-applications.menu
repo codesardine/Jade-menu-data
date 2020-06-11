@@ -189,6 +189,7 @@
       <Filename>cups.desktop</Filename>
       <Filename>Hyper.desktop</Filename>
       <Filename>tint2.desktop</Filename>
+      <Filename>multitaskingview.desktop</Filename>
     </Exclude>
   </Menu>
 
