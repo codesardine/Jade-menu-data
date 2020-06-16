@@ -190,6 +190,8 @@
       <Filename>Hyper.desktop</Filename>
       <Filename>tint2.desktop</Filename>
       <Filename>multitaskingview.desktop</Filename>
+      <Filename>evince.desktop</Filename>
+      <Filename>guake.desktop</Filename>
     </Exclude>
   </Menu>
 
