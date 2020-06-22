@@ -228,6 +228,8 @@
       <Filename>systemsettings.desktop</Filename>
       <Filename>blueman-manager.desktop</Filename>
       <Filename>org.kde.kdeconnect.kcm.desktop</Filename>
+      <Filename>kvantummanager.desktop</Filename>
+      <Filename>qt5ct.desktop</Filename>
     </Exclude>
   </Menu>
  
