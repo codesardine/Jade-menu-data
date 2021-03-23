@@ -231,6 +231,7 @@
       <Filename>guake-prefs.desktop</Filename>
       <Filename>kvantummanager.desktop</Filename>
       <Filename>io.elementary.switchboard.desktop</Filename>
+      <Filename>qt5ct.desktop</Filename>
     </Exclude>
   </Menu>
  
