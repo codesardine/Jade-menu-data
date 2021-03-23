@@ -1,6 +1,6 @@
-## Jade menus.
+## jde menus.
 
-Application menu definition files for [JADE](https://github.com/codesardine/Jadesktop)
+Application menu definition files for [jde](https://github.com/codesardine/jdesktop)
 
 Some naming conventions were subject to change for a better experience.
 
