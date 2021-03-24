@@ -192,6 +192,8 @@
       <Filename>tint2.desktop</Filename>
       <Filename>multitaskingview.desktop</Filename>
       <Filename>guake.desktop</Filename>
+      <Filename>io.elementary.switchboard.desktop</Filename>
+      <Filename>fish.desktop</Filename>
     </Exclude>
   </Menu>
 
@@ -224,13 +226,10 @@
     </Include>
     <Exclude>
       <Filename>manjaro-settings-manager.desktop</Filename>
-      <Filename>blueman-adapters.desktop</Filename>
       <Filename>systemsettings.desktop</Filename>
-      <Filename>blueman-manager.desktop</Filename>
       <Filename>org.kde.kdeconnect.kcm.desktop</Filename>
       <Filename>guake-prefs.desktop</Filename>
       <Filename>kvantummanager.desktop</Filename>
-      <Filename>io.elementary.switchboard.desktop</Filename>
       <Filename>qt5ct.desktop</Filename>
     </Exclude>
   </Menu>
